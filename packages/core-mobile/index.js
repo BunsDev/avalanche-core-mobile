@@ -37,7 +37,6 @@ if (DevDebuggingConfig.STORYBOOK_ENABLED) {
 
 AppCheckService.init()
 FCMService.listenForMessagesBackground()
-// NotificationsService.onBackgroundEvent(handleNotificationCallback)
 
 AppRegistry.registerComponent(appName, () => AppEntryPoint)
 
